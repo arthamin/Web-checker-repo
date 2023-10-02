@@ -16,7 +16,7 @@ def wwb():
 	frame_text_wwb.place(relheight=1, relwidth=1)
 
 
-	txt_wwb = Label(frame_text_wwb, text="Web-Checker: Программа, созданная для проверки статуса соеденения сайтов,и целевых хостов", bg='#FFCC66', font='Impact 25')
+	txt_wwb = Label(frame_text_wwb, text="Web-Checker: Программа, созданная для проверки статуса соединения сайтов,и целевых хостов", bg='#FFCC66', font='Impact 25')
 	txt_wwb.place(relx=0.032, rely=0.25)
 
 	frame_top_wwb = Frame(frame_text_wwb, bg = 'white', bd=5)
@@ -25,7 +25,7 @@ def wwb():
 	txt_wwb = Label(frame_top_wwb, text='Что вообще такое твой "Web-Checker?"', bg='white', font='Impact 50')
 	txt_wwb.pack()
 
-	txt2_wwb = Label(frame_text_wwb, text='Программа позволит узнать вам, почему не открывается ваш любимый сайт', bg='#FFCC66', font='Impact 25')
+	txt2_wwb = Label(frame_text_wwb, text='Программа позволит вам узнать, почему не открывается ваш любимый сайт', bg='#FFCC66', font='Impact 25')
 	txt2_wwb.place(relx=0.13, rely=0.4)
 
 	txt3_wwb = Label(frame_text_wwb, text='Или почему не работает ваш собственный веб-сервер!', bg='#FFCC66', font='Impact 25',)
@@ -89,7 +89,7 @@ def tutor():
 	inst_tutor = Label(frame_full_tutor, text='Как правильно ввести запрос?:', bg='#FFCC66', font='Impact 60')
 	inst_tutor.place(relx=0.19, rely=0.18)
 
-	inst_tutor2 = Label(frame_full_tutor, text='Что-бы получить корректный ответ от программы, все запросы должны быть в данном виде', bg='#FFCC66', font='Impact 25')
+	inst_tutor2 = Label(frame_full_tutor, text='Чтобы получить корректный ответ от программы, все запросы должны быть в данном виде', bg='#FFCC66', font='Impact 25')
 	inst_tutor2.place(relx=0.07, rely=0.40)
 
 	inst_tutor3 = Label(frame_full_tutor, text='https://primer_URL.kz', bg='#FFCC66', font='Impact 50')
